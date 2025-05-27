@@ -5574,7 +5574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab353820-7428-488f-9478-4452c6f1d3e7")
-		(property "Reference" "Multiplex_Audio_in"
+		(property "Reference" "Multiplex_Audio_in1"
 			(at 90.17 36.83 0)
 			(effects
 				(font
@@ -5668,7 +5668,7 @@
 		(instances
 			(project ""
 				(path "/a39c1df0-9e3d-4c83-b910-4e288e398b9e"
-					(reference "Multiplex_Audio_in")
+					(reference "Multiplex_Audio_in1")
 					(unit 1)
 				)
 			)

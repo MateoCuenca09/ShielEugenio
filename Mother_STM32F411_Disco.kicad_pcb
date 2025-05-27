@@ -1766,5 +1766,140 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 167 60)
+		(end 215.5 117.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "250b4368-eeb3-4cfe-a6db-56e90e8a5282")
+	)
+	(gr_rect
+		(start 218 12.75)
+		(end 236 34.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "337aa6e4-fe99-454c-97c6-cfffce0f4d21")
+	)
+	(gr_rect
+		(start 241 12.75)
+		(end 259 34.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "70729842-181e-4080-b271-1663ce8dfaa7")
+	)
+	(gr_rect
+		(start 70.5 24.5)
+		(end 136.5 121.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c476d3e7-f70c-42a9-a5f4-4ef6aaca65fd")
+	)
+	(gr_rect
+		(start 194.5 12)
+		(end 212.5 33.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e2b95cdf-10a1-4dc4-b970-0cec3a94f96c")
+	)
+	(gr_text "STMF411-Disco"
+		(at 70.5 121.5 0)
+		(layer "F.SilkS")
+		(uuid "0da0d133-9946-46c4-b739-db323635e704")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Amplificador"
+		(at 241 34.25 0)
+		(layer "F.SilkS")
+		(uuid "2fab3fd3-f4d7-4e7b-8b6d-a96610c467cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Amplificador"
+		(at 218 34.25 0)
+		(layer "F.SilkS")
+		(uuid "9b0519a3-c9aa-4c5b-8153-00ee1a23a938")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Multiplexor de Audio\n"
+		(at 167 117.5 0)
+		(layer "F.SilkS")
+		(uuid "cacae592-f755-4f9d-b2b2-fca2e8c15bf0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Amplificador"
+		(at 194.5 33.5 0)
+		(layer "F.SilkS")
+		(uuid "d1a54d29-0ff7-45f9-b5e4-6cd1c676e5bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(group ""
+		(uuid "068f2b28-5e14-45dd-9f24-d5a2feecb02c")
+		(members "2fab3fd3-f4d7-4e7b-8b6d-a96610c467cb" "70729842-181e-4080-b271-1663ce8dfaa7")
+	)
+	(group ""
+		(uuid "278e8798-8103-4f28-b2dc-6845a6c7e959")
+		(members "d1a54d29-0ff7-45f9-b5e4-6cd1c676e5bf" "e2b95cdf-10a1-4dc4-b970-0cec3a94f96c")
+	)
+	(group ""
+		(uuid "4e6d0f8a-bfaa-4e70-a74d-1084415b0b4c")
+		(members "337aa6e4-fe99-454c-97c6-cfffce0f4d21" "9b0519a3-c9aa-4c5b-8153-00ee1a23a938")
+	)
+	(group ""
+		(uuid "9462210d-bc5d-4292-9223-ccfbe79b482f")
+		(members "250b4368-eeb3-4cfe-a6db-56e90e8a5282" "cacae592-f755-4f9d-b2b2-fca2e8c15bf0")
+	)
+	(group ""
+		(uuid "acc69e03-b688-4c7d-ac8a-55878cb2de04")
+		(members "0da0d133-9946-46c4-b739-db323635e704" "c476d3e7-f70c-42a9-a5f4-4ef6aaca65fd")
+	)
 	(embedded_fonts no)
 )
