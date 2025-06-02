@@ -196,7 +196,7 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ac16cb0b-a7a9-427c-ba63-66e615e92397")
-		(at 78.54 36.36)
+		(at 80 58.98)
 		(descr "Through hole straight socket strip, 2x25, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x25 2.54mm double row")
 		(property "Reference" "Conn_Izq_STM_Disco1"
@@ -993,11 +993,22 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/kicad-libraries/3dmodels/stm.3dshapes/STM32F4DISCOVERY--3DModel-STEP-56544.STEP"
+			(offset
+				(xyz 24 -15 8.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x25_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e35f9a50-9495-4fbe-8877-6ba9a389768e")
-		(at 130.5 36.36)
+		(at 130.3 58.78)
 		(descr "Through hole straight socket strip, 2x25, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 2x25 2.54mm double row")
 		(property "Reference" "Conn_Der_STM_Disco1"
@@ -2984,15 +2995,15 @@
 			(uuid "215f5355-7594-494c-8c70-1a9857e8277e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-C3-DevKitM-1.step"
+		(model "${KIPRJMOD}/kicad-libraries/3dmodels/espressif.3dshapes/ESP32-DEVKITC-32D--3DModel-STEP-269445.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz 13 -19.5 6)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -3489,7 +3500,7 @@
 		(uuid "e2b95cdf-10a1-4dc4-b970-0cec3a94f96c")
 	)
 	(gr_text "STMF411-Disco"
-		(at 70.5 121.5 0)
+		(at 97 119.8 0)
 		(layer "F.SilkS")
 		(uuid "0da0d133-9946-46c4-b739-db323635e704")
 		(effects
@@ -3561,12 +3572,12 @@
 		(members "337aa6e4-fe99-454c-97c6-cfffce0f4d21" "9b0519a3-c9aa-4c5b-8153-00ee1a23a938")
 	)
 	(group ""
-		(uuid "9462210d-bc5d-4292-9223-ccfbe79b482f")
-		(members "250b4368-eeb3-4cfe-a6db-56e90e8a5282" "cacae592-f755-4f9d-b2b2-fca2e8c15bf0")
+		(uuid "73db0206-8be9-4825-80ac-95960248fcb4")
+		(members "0da0d133-9946-46c4-b739-db323635e704" "c476d3e7-f70c-42a9-a5f4-4ef6aaca65fd")
 	)
 	(group ""
-		(uuid "acc69e03-b688-4c7d-ac8a-55878cb2de04")
-		(members "0da0d133-9946-46c4-b739-db323635e704" "c476d3e7-f70c-42a9-a5f4-4ef6aaca65fd")
+		(uuid "9462210d-bc5d-4292-9223-ccfbe79b482f")
+		(members "250b4368-eeb3-4cfe-a6db-56e90e8a5282" "cacae592-f755-4f9d-b2b2-fca2e8c15bf0")
 	)
 	(embedded_fonts no)
 )
