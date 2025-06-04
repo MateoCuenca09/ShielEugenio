@@ -2923,32 +2923,28 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 30.48 0)
+			(property "Reference" "U1"
+				(at 0 35.56 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "ESP32-DEVKIT-V1"
-				(at -10.16 -30.48 0)
+				(at 0 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "ESP32-DEVKIT-V1:MODULE_ESP32_DEVKIT_V1"
-				(at 0 0 0)
+			(property "Footprint" "Library:ESP32-C3-DevKitV1"
+				(at 0 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
@@ -3101,6 +3097,26 @@
 						(type background)
 					)
 				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "D33"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32-DEVKIT-V1_1_0"
 				(pin input line
 					(at -15.24 25.4 0)
 					(length 5.08)
@@ -3111,7 +3127,7 @@
 							)
 						)
 					)
-					(number "30"
+					(number "15"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3129,7 +3145,7 @@
 							)
 						)
 					)
-					(number "16"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3147,7 +3163,7 @@
 							)
 						)
 					)
-					(number "17"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3165,7 +3181,7 @@
 							)
 						)
 					)
-					(number "18"
+					(number "3"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3183,7 +3199,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "19"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3201,7 +3217,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "20"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3219,7 +3235,7 @@
 							)
 						)
 					)
-					(number "8"
+					(number "23"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3237,7 +3253,7 @@
 							)
 						)
 					)
-					(number "27"
+					(number "12"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3255,7 +3271,7 @@
 							)
 						)
 					)
-					(number "28"
+					(number "13"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3273,7 +3289,7 @@
 							)
 						)
 					)
-					(number "26"
+					(number "11"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3291,7 +3307,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "18"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3309,7 +3325,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "24"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3327,7 +3343,7 @@
 							)
 						)
 					)
-					(number "10"
+					(number "25"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3345,7 +3361,7 @@
 							)
 						)
 					)
-					(number "11"
+					(number "26"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3363,7 +3379,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "16"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3381,7 +3397,7 @@
 							)
 						)
 					)
-					(number "12"
+					(number "27"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3399,7 +3415,7 @@
 							)
 						)
 					)
-					(number "13"
+					(number "28"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3417,7 +3433,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "21"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3435,7 +3451,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "22"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3453,7 +3469,7 @@
 							)
 						)
 					)
-					(number "14"
+					(number "29"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3471,7 +3487,7 @@
 							)
 						)
 					)
-					(number "15"
+					(number "30"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3489,7 +3505,7 @@
 							)
 						)
 					)
-					(number "23"
+					(number "8"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3507,7 +3523,7 @@
 							)
 						)
 					)
-					(number "24"
+					(number "9"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3525,7 +3541,7 @@
 							)
 						)
 					)
-					(number "25"
+					(number "10"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3543,25 +3559,7 @@
 							)
 						)
 					)
-					(number "21"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 15.24 -12.7 180)
-					(length 5.08)
-					(name "D33"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "22"
+					(number "6"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3579,7 +3577,7 @@
 							)
 						)
 					)
-					(number "20"
+					(number "5"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3597,7 +3595,25 @@
 							)
 						)
 					)
-					(number "19"
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 -22.86 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3615,25 +3631,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 15.24 -25.4 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "29"
+					(number "17"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -3895,6 +3893,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 59.69) (xy 168.91 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "125f3d02-694a-4bf0-87bb-18a0f0f71898")
+	)
+	(wire
+		(pts
 			(xy 22.86 88.9) (xy 30.48 88.9)
 		)
 		(stroke
@@ -4142,6 +4150,16 @@
 			(type default)
 		)
 		(uuid "3b1afb1d-105a-4aae-948f-605486cd00d9")
+	)
+	(wire
+		(pts
+			(xy 170.18 92.71) (xy 167.64 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfcf430-9c68-429f-ad5f-30bec6388ac3")
 	)
 	(wire
 		(pts
@@ -5375,6 +5393,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 41.91) (xy 137.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9452c2-c21a-486a-a285-4bccc3a6ad73")
+	)
+	(wire
+		(pts
 			(xy 76.2 87.63) (xy 97.79 87.63)
 		)
 		(stroke
@@ -5853,6 +5881,16 @@
 		)
 		(uuid "5b5ecade-6c5f-4e34-a029-7ec045d5e6b1")
 	)
+	(label "5V"
+		(at 135.89 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d725bdd-7cfc-4d6c-b067-7332831fb0ac")
+	)
 	(label "PD9"
 		(at 187.96 43.18 0)
 		(effects
@@ -6253,6 +6291,16 @@
 		)
 		(uuid "a541ad10-99c8-4ede-906b-c6942d0f73a1")
 	)
+	(label "PA15"
+		(at 167.64 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5a3e831-1552-442f-9433-247facda0e50")
+	)
 	(label "PD14"
 		(at 187.96 50.8 0)
 		(effects
@@ -6273,6 +6321,16 @@
 		)
 		(uuid "aac13c1c-d908-4e10-9883-acc648bcf8de")
 	)
+	(label "PB3"
+		(at 167.64 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ad7035e9-e110-4f30-a0a8-7659ff237adb")
+	)
 	(label "GND"
 		(at 22.86 40.64 0)
 		(effects
@@ -6292,6 +6350,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0b61964-ea80-47fd-a348-f23862506253")
+	)
+	(label "GND"
+		(at 167.64 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5fc4ed2-d491-498d-87ae-cf9022112fd5")
 	)
 	(label "PE0"
 		(at 58.42 59.69 0)
@@ -6412,6 +6480,16 @@
 			(justify left bottom)
 		)
 		(uuid "ce401712-0058-426b-aebb-f0f70e788e5c")
+	)
+	(label "GND"
+		(at 167.64 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cfc3353f-6337-4f96-803e-e90db750bb75")
 	)
 	(label "PC4"
 		(at 48.26 63.5 0)
@@ -6862,7 +6940,7 @@
 		(fields_autoplaced yes)
 		(uuid "14a16ac9-e322-4a8e-a22a-4853b5c4238e")
 		(property "Reference" "U1"
-			(at 152.4 34.29 0)
+			(at 152.4 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6948,7 @@
 			)
 		)
 		(property "Value" "ESP32-DEVKIT-V1"
-			(at 152.4 36.83 0)
+			(at 152.4 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6878,12 +6956,11 @@
 			)
 		)
 		(property "Footprint" "Library:ESP32-C3-DevKitV1"
-			(at 152.4 67.31 0)
+			(at 152.4 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify bottom)
 			)
 		)
 		(property "Datasheet" ""
@@ -7027,25 +7104,25 @@
 		(pin "9"
 			(uuid "dc148938-31c9-41a9-8bb6-2e64ff3a1dd7")
 		)
-		(pin "11"
+		(pin "16"
 			(uuid "7487ede6-74bb-43ea-bf03-bd7da9d2f162")
 		)
 		(pin "1"
 			(uuid "84e7dbac-82f6-4524-a717-2e11f88a4d55")
 		)
-		(pin "26"
+		(pin "19"
 			(uuid "04d0616c-5c45-460d-ac01-ebf1af6aa449")
 		)
-		(pin "18"
+		(pin "6"
 			(uuid "e569460e-8713-4670-8810-11d8a540b2a8")
 		)
-		(pin "30"
+		(pin "18"
 			(uuid "e7786f9e-1453-48e5-8a43-b545f1626506")
 		)
-		(pin "17"
+		(pin "26"
 			(uuid "440bfc58-9d92-4d29-99bb-7c1fa3124565")
 		)
-		(pin "16"
+		(pin "20"
 			(uuid "5785c0f4-b3d7-4bab-9abe-863329eeb1e6")
 		)
 		(pin "4"
@@ -7075,13 +7152,13 @@
 		(pin "12"
 			(uuid "65b5b071-40bc-47cf-8cc9-cb8394034058")
 		)
-		(pin "6"
+		(pin "17"
 			(uuid "6d067580-d663-4230-ae66-e88fb647f47a")
 		)
 		(pin "24"
 			(uuid "7bff7320-6043-4af4-825d-0e0107dbb046")
 		)
-		(pin "2"
+		(pin "11"
 			(uuid "d43f83fd-71a4-4838-b717-5d3f24d74993")
 		)
 		(pin "21"
@@ -7093,7 +7170,7 @@
 		(pin "23"
 			(uuid "b9e6b05d-4ad9-4760-a976-e3b11e1d48ce")
 		)
-		(pin "19"
+		(pin "30"
 			(uuid "71e5be70-dda9-4417-bf54-d32066e40c48")
 		)
 		(pin "13"
@@ -7102,7 +7179,7 @@
 		(pin "22"
 			(uuid "f385dbfd-cf73-45b5-b1de-8b688d2e43c9")
 		)
-		(pin "20"
+		(pin "2"
 			(uuid "cb18dc66-f351-4772-bffc-44764feef59d")
 		)
 		(pin "7"
