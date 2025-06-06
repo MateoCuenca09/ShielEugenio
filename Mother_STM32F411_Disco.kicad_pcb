@@ -4964,13 +4964,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "ab75421f-f85e-4ebc-a8bf-16c65ca046c3")
-		(at 230.725 120.95)
+		(at 58.2 22)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "SRC_GND1"
 			(at 3 2 90)
 			(layer "F.SilkS")
-			(uuid "0119e010-217d-46cb-afa5-536e54ba507f")
+			(uuid "199034c0-4369-4b19-b334-d5bb2b4171d6")
 			(effects
 				(font
 					(size 1 1)
@@ -4981,7 +4981,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 5.31 0)
 			(layer "F.Fab")
-			(uuid "c66f126e-97e1-4033-9177-a93fa47aa82a")
+			(uuid "7e7ee78b-0cb5-4e5f-a7ea-5061fe505844")
 			(effects
 				(font
 					(size 1 1)
@@ -4993,7 +4993,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "301b8e1e-7b50-4d3d-ae08-4e2fd935ad43")
+			(uuid "4afa863e-a1a7-4363-86a2-5856b08574a0")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5005,7 +5005,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47d795a6-ff69-41d4-91f3-da080bfb6ea0")
+			(uuid "3464ac36-4f1e-4884-9dad-5fa7e682ac2f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13034,13 +13034,13 @@
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "e4d125d4-9604-458c-a96e-ff6ce812214a")
-		(at 247.1 120.9)
+		(at 74.6 21.96)
 		(descr "Through hole straight socket strip, 1x02, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
 		(tags "Through hole socket strip THT 1x02 2.54mm single row")
 		(property "Reference" "SRC_5V1"
 			(at -3 1 90)
 			(layer "F.SilkS")
-			(uuid "5260f963-18ae-476e-bb16-e9218c22cf18")
+			(uuid "2af23aae-3a47-4a12-9763-997bc48803d8")
 			(effects
 				(font
 					(size 1 1)
@@ -13051,7 +13051,7 @@
 		(property "Value" "Conn_01x02"
 			(at 0 5.31 0)
 			(layer "F.Fab")
-			(uuid "7b3da9f6-085d-448c-a85b-58892a65fdb8")
+			(uuid "dedd30ba-4bc9-4d3a-ac04-bba12ef5f7cc")
 			(effects
 				(font
 					(size 1 1)
@@ -13063,7 +13063,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "86479a37-db10-4eb2-bf02-7515bdef150c")
+			(uuid "9bf48e1a-bcd3-4142-84cc-2546cace9590")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13075,7 +13075,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "de28828b-9f88-4387-be2c-0d6dd01c822c")
+			(uuid "20c7ae8a-2d79-419e-950a-afeb6aa09298")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15284,8 +15284,8 @@
 		(uuid "06546172-929e-4be0-9e08-f667f79a59f1")
 	)
 	(gr_rect
-		(start 133 128)
-		(end 84.5 70.5)
+		(start 84.5 70.5)
+		(end 133 128)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -15328,8 +15328,8 @@
 		(uuid "c476d3e7-f70c-42a9-a5f4-4ef6aaca65fd")
 	)
 	(gr_rect
-		(start 228.9 119.1)
-		(end 248.9 139.1)
+		(start 56.4 20.2)
+		(end 76.4 50.2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -15339,8 +15339,8 @@
 		(uuid "dbc78347-1f85-4cc7-9f12-62f500dda437")
 	)
 	(gr_rect
-		(start 232.9 132.7)
-		(end 244.9 141.7)
+		(start 60.4 44.6)
+		(end 72.4 51.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -15350,7 +15350,7 @@
 		(uuid "f276820b-dca7-44df-9834-89fc6e7dc30e")
 	)
 	(gr_rect
-		(start 24 36)
+		(start 24 17.3)
 		(end 258 150)
 		(stroke
 			(width 0.1)
@@ -15395,7 +15395,7 @@
 		)
 	)
 	(gr_text "SRC_PWR"
-		(at 239.9 130.1 90)
+		(at 67.4 41.2 90)
 		(layer "F.SilkS")
 		(uuid "c0988d01-2bfa-422b-a9ad-11baa444b9d6")
 		(effects
@@ -15445,12 +15445,6 @@
 		)
 	)
 	(group ""
-		(uuid "5ce35fcc-e7d7-4282-bcb4-78cb0d50fe2c")
-		(members "ab75421f-f85e-4ebc-a8bf-16c65ca046c3" "c0988d01-2bfa-422b-a9ad-11baa444b9d6"
-			"dbc78347-1f85-4cc7-9f12-62f500dda437" "e4d125d4-9604-458c-a96e-ff6ce812214a"
-		)
-	)
-	(group ""
 		(uuid "6283e2da-8c78-4d5e-b9df-c456e0bece8f")
 		(members "0eede9cc-b46e-4660-a250-7d040d62f4f9" "5e30e5a8-f5a7-4d18-bb9e-ca18e7603b57"
 			"926aa707-d353-4d9e-b247-3f0da4009267" "d530fea6-de63-4045-9893-a1a0002c3ecc"
@@ -15458,8 +15452,11 @@
 		)
 	)
 	(group ""
-		(uuid "9a82b5e5-e519-448a-8605-952a6a955cbe")
-		(members "5ce35fcc-e7d7-4282-bcb4-78cb0d50fe2c" "f276820b-dca7-44df-9834-89fc6e7dc30e")
+		(uuid "898ad22a-d1ae-4d3b-8d70-ee133cfea033")
+		(members "ab75421f-f85e-4ebc-a8bf-16c65ca046c3" "c0988d01-2bfa-422b-a9ad-11baa444b9d6"
+			"dbc78347-1f85-4cc7-9f12-62f500dda437" "e4d125d4-9604-458c-a96e-ff6ce812214a"
+			"f276820b-dca7-44df-9834-89fc6e7dc30e"
+		)
 	)
 	(group ""
 		(uuid "a3facd34-eed7-45d1-81c9-ca1b1d23d0ef")
